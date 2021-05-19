@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: authserver
+        
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: "jdbc:mysql://localhost/USERSERVICE?autoreconnect=true"
+        password: ""
+        username: "root"
+
+config:
+    oauth2:
+        clientid: id
+        clientSecret: id
+        privateKey: -----BEGIN RSA PRIVATE KEY-----MIIEpQIBAAKCAQEA8V7eY9/AoEEW9TBQWZ6q4Vvi9kY7WYZP1nJ2FzP1hJkxYdXsm/U0OQzGkmJ/PPxlNIa5ReUooYy1/vRdEyFpeEsudysF3c7wzTjqmR2s3JvYZRJQ3DdWOOw80AOc7TrTCJQ9u9YNftxh9tcafWMTj08Zwtx3/bunyn0uHnCFlZMI+SXjKqZQoID6YC1C5BUFKOm9uDSqGvbCIltVfNytE8Zof4eE42boqTa58cw1M/RNXx3rdURkpUdyam2+fNEMjttl19abMJu99WwXbW+sYStf+ykyAZWasZUKVU0iqJ9GkemFeHH7uPa2UiXf5zW8jCZ1vUEDcmNpFo98KzcQ1wIDAQABAoIBACJwfdzURUDYaLUtYpmW+RzUpoqrNLauYl/fzxe6czKrRQ+HnY4XK49kUkT6xtrlzG71NiRR8T0zvZgWN92N6+WdHJEmU1z1tQgjMd4NDOghWHv7ZAw33RacJoUrrs1ukkPsGu7dOOm7+kJlKMNxSo4tJCjYmkpa5zMOL3FqbrULkc3GLza2F6VdZ5tUG8JW//4CMJTjs/rFuLOBhCZpUEjUurQiEaeEHb46aVDA3qKROQ/LXJx3QqrC5LCmTTXAHoBtouHZBZ/jRUGW HGRENpnsp0gQXjHjYYirpRfA3ro7/fOn8oGzt0jsEoyKXymc0gpfdTYt9GEKI/E4LG7/X9kCgYEA/Z4/iesdTptz+1iLxV/JbrwyriLFrmQMfENCsI1WUxHyt2T2Uj+VCjhhj/e2e7rAQUWS2lncMsxAfhSkAzzmLamiQa8kJ0RmH56+x18+H1BYpPZQbnO1W5rWKR2RPeGv+kGD1yntg+VCLY9G2trroSxuV4ywfCD9x5F/MKUcTaUCgYEA86MsvA3BgPQFYuFPqKZ30b/2egW5pKu56aIKR+lTMVlElDKcNYaddnRVKavWSC0ulQKsC3HdxjOn/9+MTUadokuwy+kTfY/Q1zs8RlOMuCAlrSyNeIHshuyNm6t736efmWqnfXnnTGrXrE6MrbdzC29ye5vuf2f+9/c4tmzlU8sCgYEA7s3sDCRLYzHy4o88hKut0sv4eIkbVBq2uubmS7G5v9xdi5vQaB+gaZAvJU1dEWIGFy+4mEsWkOpMK6upx7a3EfXxZyHPy/2Wn11tS/N9XiTcYu/fSjE/ajMARpSlpvv0JJM93gKHt7LOPnHziK2sQwXAHEXIBAlYjGqOtbIyVVUCgYEAmhir06lzqUcuHPNa+dWIVV7v2w/B8jg3V2EI1aDq4HyQlpdIG8av01sS/k9UMcR6AP92p6p2VcUYTgsrZzjxvNPY16/shu8ubONnZSe1CkQy8EwMkprCajg1/K7Co5wWoudFVmSC+d9d1/q6mak9F49+vlXKzESPjHCOKzvG9G8CgYEA8HI+IzLKCQFodnIDmdPd8pZcA0l7EL+HkM5rTztsiIt2mBBrxDboY4fEcy/BaUfgIxeAfKiRP0JFMzLgG/ow+lWUFHXP1Psw/k6swrSmxy3vXF+n0ZfV8DFMQoLxj6uLbX2kX8Dk4Vhd+6BJ5qVhe6Ai1sJnjY1+/QFgTVaJSk0=-----END RSA PRIVATE KEY-----
+        publicKey: -----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8V7eY9/AoEEW9TBQWZ6q4Vvi9kY7WYZP1nJ2FzP1hJkxYdXsm/U0OQzGkmJ/PPxlNIa5ReUooYy1/vRdEyFpeEsudysF3c7wzTjqmR2s3JvYZRJQ3DdWOOw80AOc7TrTCJQ9u9YNftxh9tcafWMTj08Zwtx3/bunyn0uHnCFlZMI+SXjKqZQoID6YC1C5BUFKOm9uDSqGvbCIltVfNytE8Zof4eE42boqTa58cw1M/RNXx3rdURkpUdyam2+fNEMjttl19abMJu99WwXbW+sYStf+ykyAZWasZUKVU0iqJ9GkemFeHH7uPa2UiXf5zW8jCZ1vUEDcmNpFo98KzcQ1wIDAQAB-----END PUBLIC KEY-----
